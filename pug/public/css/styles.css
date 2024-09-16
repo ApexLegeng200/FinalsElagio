@@ -1,0 +1,28 @@
+:root {
+    --background-color: rgb(34, 129, 184);
+    --text-color: aquamarine;
+    --heading-weight: 700;
+    --paragraph-weight: 600; 
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+h1 {
+    color: var(--text-color);
+    font-weight: var(--heading-weight);
+    margin: 20px 0; 
+}
+
+p {
+    color: var(--text-color);
+    text-decoration: underline;
+    font-weight: var(--paragraph-weight);
+    margin: 10px 0; 
+}
